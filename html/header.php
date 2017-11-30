@@ -1,3 +1,8 @@
+<?php
+  if (is_null($selectedMenuItem)) $selectedMenuItem = -1;
+  if (is_null($title)) $title = "GGJ Trier";
+?>
+
 <html>
 <head>
     <title><?php echo $title; ?></title>
@@ -28,9 +33,9 @@
                     <!-- Nav -->
                         <nav id="nav">
                             <ul>
-                                <li class="current"><a href="index.html">Welcome</a></li>
-                                <li><a href="left-sidebar.html">Past GGJs Trier</a></li>
-                                <li><a href="right-sidebar.html">Contact</a></li>
+                                <li <?php if($selectedMenuItem == 0) echo"class='current'"; ?>><a href="index.php">Welcome</a></li>
+                                <li <?php if($selectedMenuItem == 1) echo"class='current'"; ?>><a href="index.php?a=past">Past GGJs Trier</a></li>
+                                <li <?php if($selectedMenuItem == 2) echo"class='current'"; ?>><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>
 
