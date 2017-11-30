@@ -11,16 +11,16 @@
 								<h2>Imagine Epic Contact Form</h2>
 
 								<div class="container">
-                                        <form action="/action_page.php">
+                                        <form action="processForm.php" method="post">
 
                                           <label for="fname">First Name</label>
-                                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
                                           <label for="lname">Last Name</label>
-                                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
                                           <label for="lname">Your e-mail adress</label>
-                                          <input type="text" id="adress" name="adress" placeholder="example@gmail.com..">
+                                          <input type="email" id="adress" name="adress" placeholder="example@gmail.com.." required>
 
                                           <!--
                                           <label for="country">Country</label>
@@ -32,8 +32,8 @@
                                           -->
 
                                           <label for="subject">Subject</label>
-                                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
+                                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+																					<!-- <div class="g-recaptcha" data-sitekey="6LeoHjsUAAAAAFEcRBsgATGc3vZU70Gtz-qQCgQ3"></div> -->
                                           <input type="submit" value="Submit">
 
                                         </form>

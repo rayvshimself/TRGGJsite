@@ -1,6 +1,7 @@
 <?php
-  if (is_null($selectedMenuItem)) $selectedMenuItem = -1;
-  if (is_null($title)) $title = "GGJ Trier";
+  if (!isset($selectedMenuItem)) $selectedMenuItem = -1;
+  if (!isset($title)) $title = "GGJ Trier";
+  if (!isset($scipt)) $script = "";
 ?>
 
 <html>
@@ -17,6 +18,7 @@
     <script src="assets/js/util.js"></script>
     <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
     <script src="assets/js/main.js"></script>
+    <?php echo $script; ?>
 </head>
 <body class="homepage">
     <div id="page-wrapper">
