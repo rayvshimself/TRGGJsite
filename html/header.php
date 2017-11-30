@@ -29,15 +29,17 @@
 
                     <!-- Logo -->
                         <div id="logo">
-                        <img src="images/websiteheader-transp.png" alt="" />
+                        <a href="index.php"><img src="images/websiteheader-transp.png" alt="" /></a>
                         </div>
 
                     <!-- Nav -->
                         <nav id="nav">
                             <ul>
-                                <li <?php if($selectedMenuItem == 0) echo"class='current'"; ?>><a href="index.php">Welcome</a></li>
-                                <li <?php if($selectedMenuItem == 1) echo"class='current'"; ?>><a href="index.php?a=past">Past GGJs Trier</a></li>
-                                <li <?php if($selectedMenuItem == 2) echo"class='current'"; ?>><a href="contact.php">Contact</a></li>
+                                <li <?php if($selectedMenuItem == "welcome") echo"class='current'"; ?>><a href="index.php">Welcome</a></li>
+                                <li <?php if($selectedMenuItem == "infos") echo"class='current'"; ?>><a href="index.php?a=infos">Infos</a></li>
+                                <li <?php if($selectedMenuItem == "dir") echo"class='current'"; ?>><a href="index.php?a=dir">Directions</a></li>
+                                <li <?php if($selectedMenuItem == "past") echo"class='current'"; ?>><a href="index.php?a=past">Past GGJs Trier</a></li>
+                                <li <?php if($selectedMenuItem == "contact") echo"class='current'"; ?>><a href="contact.php">Contact</a></li>
                             </ul>
                         </nav>
 

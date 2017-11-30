@@ -13,10 +13,12 @@
 
     // Choose Title and selected Nav Item
     $title = "GGJ Trier";
-    $selectedMenuItem = 0;
+    $selectedMenuItem = "welcome";
     if ($status == 1){
       switch($id){
-        case "past": $selectedMenuItem = 1; $title = "GGJ Trier - Past GGJ"; break;
+        case "past": $selectedMenuItem = "past"; $title = "GGJ Trier - Past GGJ"; break;
+        case "infos": $selectedMenuItem = "infos"; $title = "GGJ Trier - Practical information"; break;
+        case "dir": $selectedMenuItem = "dir"; $title = "GGJ Trier - Directions"; break;
       }
     } else if ($status != 0) {
       // in case of error

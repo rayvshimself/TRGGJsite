@@ -48,6 +48,11 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	b {
+		color: black;
+    font-weight: bold;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1383,7 +1388,7 @@
 
 	b, strong {
 		font-weight: 600;
-		color: #FFF;
+		color: #555;
 	}
 
 	i, em {
