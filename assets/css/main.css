@@ -30,6 +30,20 @@
 		list-style: none;
 	}
 
+	ul{
+  margin-left:10px;
+}
+
+/* Second Level */
+ul ul{
+  margin-left:15px;
+}
+
+/* Third Level */
+ul ul ul{
+  margin-left:20px;
+}
+
 	blockquote, q {
 		quotes: none;
 	}
