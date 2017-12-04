@@ -15,7 +15,8 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline; 
+		vertical-align: baseline;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1344,11 +1345,19 @@ ul ul ul{
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
 		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: 300;		
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
 		line-height: 2.25em;
 	}
+		body h2{
+		font-family: futura-pt, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+
+		}
 
 		body.is-loading * {
 			-moz-transition: none !important;
@@ -1418,6 +1427,7 @@ ul ul ul{
 		top: 0.5em;
 		font-size: 0.8em;
 	}
+
 
 	sup {
 		position: relative;
@@ -1880,6 +1890,8 @@ ul ul ul{
 
 	#header {
 		position: relative;
+		margin-top: -1.5em;
+		margin-bottom: 0;
 	}
 
 
@@ -1887,7 +1899,7 @@ ul ul ul{
 
 	#logo {
 		display: inline-block;
-		margin-top:-2em;	
+		margin-top:-1em;	
 	}	
 
 		#logo h1 {
