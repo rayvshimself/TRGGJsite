@@ -15,7 +15,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
+		vertical-align: baseline; 
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1368,7 +1368,7 @@ ul ul ul{
 		font-weight: 300;
 		line-height: 2.25em;
 	}
-    //TODO color
+    /*TODO color*/
 	a {
 		color: #563667;
 		text-decoration: underline;
@@ -1859,6 +1859,7 @@ ul ul ul{
 
 	#header-wrapper {
 		padding: 4.5em 0 1em 0;
+		
 	}
 
 	#features-wrapper {
@@ -1881,11 +1882,13 @@ ul ul ul{
 		position: relative;
 	}
 
+
 /* Logo */
 
 	#logo {
 		display: inline-block;
-	}
+		margin-top:-2em;	
+	}	
 
 		#logo h1 {
 			background: #ff4486;
@@ -1914,7 +1917,7 @@ ul ul ul{
 	#nav {
 		position: absolute;
 		right: 0;
-		top: 0;
+		bottom: 0;
 		font-size: 0.9em;
 	}
 
@@ -1923,7 +1926,7 @@ ul ul ul{
 			line-height: 4.5em;
 			padding-left: 1.5em;
 		}
-
+		/*TODO color*/
 			#nav ul li a, #nav ul li span {
 				-moz-transition: background-color .25s ease-in-out;
 				-webkit-transition: background-color .25s ease-in-out;

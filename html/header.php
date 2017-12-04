@@ -21,6 +21,7 @@
     <?php echo $script; ?>
 </head>
 <body class="homepage">
+
     <div id="page-wrapper">
 
         <!-- Header -->
@@ -28,9 +29,9 @@
                 <header id="header" class="container">
 
                     <!-- Logo -->
-                        <div id="logo">
-                        <a href="index.php"><img src="images/websiteheader-transp.png" alt="" /></a>
-                        </div>
+                    <div id="logo">
+                        <a href="index.php"><img src="images/GGJ Icon256x256.png" alt="" /></a>   
+                    </div>
 
                     <!-- Nav -->
                         <nav id="nav">
