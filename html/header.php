@@ -30,7 +30,8 @@
 
                     <!-- Logo -->
                     <div id="logo">
-                        <a href="index.php"><img src="images/GGJ Icon256x256.png" alt="" /></a>   
+                        <a href="index.php"><img src="images/web_header.png" alt="" /></a>
+                        <!--a href="index.php"><img src="images/GGJ Icon256x256.png" alt="" /></a-->
                     </div>
 
 
@@ -42,6 +43,7 @@
                                 <li <?php if($selectedMenuItem == "dir") echo"class='current'"; ?>><a href="index.php?a=dir">Directions</a></li>
                                 <li <?php if($selectedMenuItem == "past") echo"class='current'"; ?>><a href="index.php?a=past">Past GGJs Trier</a></li>
                                 <li <?php if($selectedMenuItem == "contact") echo"class='current'"; ?>><a href="contact.php">Contact</a></li>
+                                <li <?php if($selectedMenuItem == "code-of-conduct") echo"class='current'"; ?>><a href="index.php?a=code-of-conduct">Code of Conduct</a></li>
                             </ul>
                         </nav>
 
